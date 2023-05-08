@@ -1,6 +1,7 @@
 // TODO: Update the name of the method loaded by the prover. E.g., if the method
 // is `multiply`, replace `METHOD_NAME_ELF` with `MULTIPLY_ELF` and replace
 // `METHOD_NAME_ID` with `MULTIPLY_ID`
+mod methods;
 use methods::{METHOD_NAME_ELF, METHOD_NAME_ID};
 use risc0_zkvm::{Executor, ExecutorEnv};
 // TODO: Uncomment the `use` line below for serialization helper functions for
