@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-#methods = { path = "./methods" }
+methods = { path = "../methods" }
 risc0-zkvm = { git = "https://github.com/labormedia/risc0.git" }
 serde = "1.0"
