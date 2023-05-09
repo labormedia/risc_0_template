@@ -7,7 +7,7 @@ use risc0_zkvm::{Executor, ExecutorEnv};
 // communication with the guest
 // use risc0_zkvm::serde::{from_slice, to_vec}
 
-fn main() {
+pub fn main() {
     let env = ExecutorEnv::default();
     let mut exec = Executor::from_elf(env, METHOD_NAME_ELF).unwrap();
     let session = exec.run().unwrap();
